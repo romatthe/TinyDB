@@ -2,5 +2,13 @@
 name = "tinydb"
 version = "0.1.0"
 authors = ["romatthe <robin.mattheussen@gmail.com>"]
+build = "build.rs"
 
 [dependencies]
+log = "0.4.1"
+env_logger = "0.5.6"
+colored = "1.6.0"
+built = "0.2.3"
+
+[build-dependencies]
+built = "0.2.3"
